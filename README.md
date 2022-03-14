@@ -1,24 +1,21 @@
-# README
+# Cooked
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Cooked is a single page application where users can create and share recipes!  
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+- Clone the repository as well as the repository for the frontend (https://github.com/tsmcphaul/cooked-frontend)
+- Once cloned, make sure you're inside the backend directory and run 'bundle install' into the terminal
+- While in the backend directory, run 'rails db:migrate' and 'rails db:seed' 
+- Start up the Rails server with 'rails s'
+- Open up another terminal for the frontend directory.  Once inside the directory, run 'npm install' and 'npm start'
+- Explore some new dishes! Or show off your own Masterchef worthy dishes!
 
-* System dependencies
 
-* Configuration
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-* Database creation
+Please make sure to update tests as appropriate.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
