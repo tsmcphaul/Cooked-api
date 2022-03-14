@@ -38,6 +38,8 @@ class RecipesController < ApplicationController
   def destroy
     recipe = Recipe.find(params[:id])
     recipe.destroy
+    recipes = Recipe.all
+    render json: RecipeSerializer.new(recipes)
   end
 
   private
